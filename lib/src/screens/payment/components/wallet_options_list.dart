@@ -11,7 +11,7 @@ List<PayCard> getPaymentOptions() {
   List<PayCard> cards = [];
 
   cards.add(PayCard(
-      title: "Cash on delivery (CASH/CARD/UPI)",
+      title: "Cash on delivery (CASH/CARD)",
       description: "Pay bill using card",
       image: "assets/images/paycard.png"));
 
@@ -21,18 +21,13 @@ List<PayCard> getPaymentOptions() {
       image: "assets/images/paycard.png"));
 
   cards.add(PayCard(
-      title: "PHONE PE/GOOGLE PAY/BHIM UPI",
-      description: "Pay bill using card",
-      image: "assets/images/paycard.png"));
-
-  cards.add(PayCard(
-      title: "PAYTM/PAYZJAPP/WALLETS",
-      description: "Pay bill using card",
+      title: "Bkash/Nagod/Roket",
+      description: "Pay bill using mobile payment",
       image: "assets/images/paycard.png"));
 
   cards.add(PayCard(
       title: "NET BANKING",
-      description: "Pay bill using card",
+      description: "Pay bill using Mobile",
       image: "assets/images/paycard.png"));
   return cards;
 }
